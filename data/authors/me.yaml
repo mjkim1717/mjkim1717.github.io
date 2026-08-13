@@ -37,30 +37,30 @@ links:
   #  url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Cancer Genomics
+  - Whole Genome Sequencing
+  - Somatic Mosaicism
+  - Clonal Evolution
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+  - degree: MSc in Cancer Biology (Integrated Major in Innovative Medical Science)
+    institution: Seoul National University, South Korea
+    start: 2023-03
+    end: 2025-02
+    #summary: |
+    #  Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
     button:
-      text: Download dissertation
+      #text: Download dissertation
       url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      #icon: hero/arrow-down-tray
+  - degree: BEng in Integrative Bioscience and Biotechnology
+    institution: Sejong University, South Korea
+    start: 2018-03
+    end: 2022-02
+  #- degree: BS Computer Science
+  #  institution: MIT
+  #  start: 2009-09-01
+  #  end: 2013-05-31
 
 experience:
   - role: Senior AI Research Scientist
@@ -82,11 +82,11 @@ experience:
 skills:
   - name: Technical Skills
     items:
-      - label: Python
+      - label: Programming: Python, R, Bash/Linux
         level: 5
-      - label: Machine Learning
+      - label: Bioinformatics Tools: PySAM, Tidyverse, Circlize, ComplexHeatmap, FastQC, BWA-MEM, Samtools, Sequenza, Picard, Varscan, Strelka, Mutect, Delly, SigProfiler, ANNOVAR, IGV
         level: 5
-      - label: Cloud Computing
+      - label: Web Frameworks / Tools: Streamlit, Adobe Illustrator, Adobe InDesign
         level: 4
   - name: Research & Communication
     items:
@@ -94,20 +94,18 @@ skills:
         level: 5
       - label: Conference Presentations
         level: 4
-      - label: Grant Proposals
-        level: 4
 
 languages:
   - name: English
     level: 5
-    label: Native
-  - name: Spanish
-    level: 4
     label: Fluent
+  - name: Chinese
+    level: 2
+    label: Basic
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: Presentation Award
+    awarder: Korea Genome Organization 
+    date: "2025-02"
+    summary: For an oral presentation titled “Distinguishing multiple primary lung cancers from intrapulmonary oligometastasis using whole genome sequencing”.
     icon: hero/trophy
