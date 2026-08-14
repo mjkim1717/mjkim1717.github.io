@@ -50,10 +50,10 @@ education:
     end: 2025-02
     summary: |
       Integrated Major in Innovative Medical Science
-    button:
+    #button:
       #text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
+      #url: /resume.pdf
+      #icon: hero/arrow-down-tray
   - degree: BEng in Integrative Bioscience and Biotechnology
     institution: Sejong University, South Korea
     start: 2018-03
