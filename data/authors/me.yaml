@@ -45,16 +45,15 @@ interests:
 education:
   - degree: |
       MSc in Cancer Biology
-      (Integrated Major in Innovative Medical Science)
     institution: Seoul National University, South Korea
     start: 2023-03
     end: 2025-02
-    #summary: |
-    #  Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+    summary: |
+      Integrated Major in Innovative Medical Science
     button:
       #text: Download dissertation
       url: /resume.pdf
-      #icon: hero/arrow-down-tray
+      icon: hero/arrow-down-tray
   - degree: BEng in Integrative Bioscience and Biotechnology
     institution: Sejong University, South Korea
     start: 2018-03
@@ -81,20 +80,20 @@ experience:
     summary: |
       •	Research Projects
         •	Project 1: Distinguishing multiple primary lung cancers from intrapulmonary oligometastasis using whole genome sequencing
-        -	Led translational research as co-first author to distinguish multiple primary lung cancers from intrapulmonary oligometastasis to guide clinical diagnostic and therapeutic approaches where conventional methods are ambiguous.
-        -	Established and optimized a WGS analysis pipeline to process and manage a genomic database of 28 tumor cohort pairs.
-        -	Classified primary versus metastatic tumors based on genetic similarity and shared oncogenic driver mutations by conducting comprehensive genomic profiling, including Single Nucleotide Variants (SNVs), Indels, Copy Number Variants (CNVs), and Structural Variants (SVs).
-        -	Developed a Streamlit-based data visualization platform to link EMR profiles with genomic variants, streamlining multidisciplinary cross-validation of patient outcomes and tumor progression.
+          -	Led translational research as co-first author to distinguish multiple primary lung cancers from intrapulmonary oligometastasis to guide clinical diagnostic and therapeutic approaches where conventional methods are ambiguous.
+          -	Established and optimized a WGS analysis pipeline to process and manage a genomic database of 28 tumor cohort pairs.
+          -	Classified primary versus metastatic tumors based on genetic similarity and shared oncogenic driver mutations by conducting comprehensive genomic profiling, including Single Nucleotide Variants (SNVs), Indels, Copy Number Variants (CNVs), and Structural Variants (SVs).
+          -	Developed a Streamlit-based data visualization platform to link EMR profiles with genomic variants, streamlining multidisciplinary cross-validation of patient outcomes and tumor progression.
         •	Project 2: Tracing the origins of bilateral breast angiosarcoma using whole-genome sequencing
-        -	Investigated the clonal relatedness and lineage of bilateral breast angiosarcoma serving as the co-first author.
-        -	Leveraged advanced bioinformatic workflows to reconstruct phylogenetic relationships, providing insights into the clonal origin and progression of rare tumor types.
+          -	Investigated the clonal relatedness and lineage of bilateral breast angiosarcoma serving as the co-first author.
+          -	Leveraged advanced bioinformatic workflows to reconstruct phylogenetic relationships, providing insights into the clonal origin and progression of rare tumor types.
   - role: Research Intern
     org: Seoul National University
     start: 2022-05
     end: 2023-02
     summary: |
       •	Research Topic: Evaluation of target inhibitors in epidermal growth factor receptor inhibitor-resistant cell lines
-      •	Conducted drug screening assays using lung cancer patient-derived cell lines and Ba/F3 cells engineered with diverse EGFR mutant profiles (including WT, L858R, T790M, C797S, and L798I) to evaluate therapeutic efficacy against acquired resistance.
+        - Conducted drug screening assays using lung cancer patient-derived cell lines and Ba/F3 cells engineered with diverse EGFR mutant profiles (including WT, L858R, T790M, C797S, and L798I) to evaluate therapeutic efficacy against acquired resistance.
   - role: Undergraduate intern
     org: Sejong University
     start: 2021-03
