@@ -23,13 +23,13 @@ open_access: false
 #  - funder: "Wellcome Trust"
 #    grant: "WT-219123/Z/19/Z"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: The increased use of high-resolution CT scans has led to a rise in the detection of multiple pulmonary nodules. However, distinguishing between multiple primary lung cancers (MPLCs) and intrapulmonary oligometastasis (IPM) remains elusive. To address this, we utilized whole-genome sequencing (WGS) to reconstruct phylogenetic trees among tumor nodules to optimize treatment strategies.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Large Language Models
+- WGS
 
 featured: true
 
