@@ -27,14 +27,14 @@ links:
     label: E-mail Me
   #- icon: brands/x
   #  url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
+  #- icon: brands/github
+  #  url: https://github.com/example
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  #- icon: academicons/orcid
-  #  url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/minju-kim-01a0a6260/
+  #- icon: academicons/google-scholar
+  #  url: https://scholar.google.com/citations?user=example
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0005-7974-6036
 
 interests:
   - Cancer Genomics
@@ -43,7 +43,9 @@ interests:
   - Clonal Evolution
 
 education:
-  - degree: MSc in Cancer Biology (Integrated Major in Innovative Medical Science)
+  - degree: |
+      MSc in Cancer Biology
+      (Integrated Major in Innovative Medical Science)
     institution: Seoul National University, South Korea
     start: 2023-03
     end: 2025-02
@@ -63,22 +65,43 @@ education:
   #  end: 2013-05-31
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Researcher
+    org: Seoul National University Hospital
+    start: 2025-03
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Contributed to single-cell organoid experiments (including lung normal cell organoid culture, single cell picking, and gDNA extraction) to reconstruct phylogenetic trees for tumor lineage tracing.
+    #button:
+    #  text: View portfolio
+    #  url: /
+    #  icon: hero/arrow-down-tray
+  - role: Master’s student
+    org: Seoul National University
+    start: 2023-03
+    end: 2025-02
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
+      •	Research Projects
+        •	Project 1: Distinguishing multiple primary lung cancers from intrapulmonary oligometastasis using whole genome sequencing
+        -	Led translational research as co-first author to distinguish multiple primary lung cancers from intrapulmonary oligometastasis to guide clinical diagnostic and therapeutic approaches where conventional methods are ambiguous.
+        -	Established and optimized a WGS analysis pipeline to process and manage a genomic database of 28 tumor cohort pairs.
+        -	Classified primary versus metastatic tumors based on genetic similarity and shared oncogenic driver mutations by conducting comprehensive genomic profiling, including Single Nucleotide Variants (SNVs), Indels, Copy Number Variants (CNVs), and Structural Variants (SVs).
+        -	Developed a Streamlit-based data visualization platform to link EMR profiles with genomic variants, streamlining multidisciplinary cross-validation of patient outcomes and tumor progression.
+        •	Project 2: Tracing the origins of bilateral breast angiosarcoma using whole-genome sequencing
+        -	Investigated the clonal relatedness and lineage of bilateral breast angiosarcoma serving as the co-first author.
+        -	Leveraged advanced bioinformatic workflows to reconstruct phylogenetic relationships, providing insights into the clonal origin and progression of rare tumor types.
+  - role: Research Intern
+    org: Seoul National University
+    start: 2022-05
+    end: 2023-02
+    summary: |
+      •	Research Topic: Evaluation of target inhibitors in epidermal growth factor receptor inhibitor-resistant cell lines
+      •	Conducted drug screening assays using lung cancer patient-derived cell lines and Ba/F3 cells engineered with diverse EGFR mutant profiles (including WT, L858R, T790M, C797S, and L798I) to evaluate therapeutic efficacy against acquired resistance.
+  - role: Undergraduate intern
+    org: Sejong University
+    start: 2021-03
+    end: 2021-06
+    summary: |
+      Gained hands-on experience in in vitro techniques, including DNA cloning, DNA preparation, plasmid transfection, and Western blotting.
+      
 skills:
   - name: Technical Skills
     items:
