@@ -1,5 +1,5 @@
 ---
-title: "MPLC IPM / working paper"
+title: "MPLC IPM / _Manuscript_"
 authors:
 - me
 date: "2026-08-07T00:00:00Z"
