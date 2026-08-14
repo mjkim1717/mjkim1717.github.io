@@ -83,6 +83,7 @@ experience:
         -	Established and optimized a WGS analysis pipeline to process and manage a genomic database of 28 tumor cohort pairs.
         -	Classified primary versus metastatic tumors based on genetic similarity and shared oncogenic driver mutations by conducting comprehensive genomic profiling, including Single Nucleotide Variants (SNVs), Indels, Copy Number Variants (CNVs), and Structural Variants (SVs).
         -	Developed a Streamlit-based data visualization platform to link EMR profiles with genomic variants, streamlining multidisciplinary cross-validation of patient outcomes and tumor progression.
+        
       •	Research Project 2: Tracing the origins of bilateral breast angiosarcoma using whole-genome sequencing
         -	Investigated the clonal relatedness and lineage of bilateral breast angiosarcoma serving as the co-first author.
         -	Leveraged advanced bioinformatic workflows to reconstruct phylogenetic relationships, providing insights into the clonal origin and progression of rare tumor types.
