@@ -1,11 +1,11 @@
 ---
-title: "An example preprint / working paper"
+title: "MPLC IPM / working paper"
 authors:
 - me
-date: "2019-04-07T00:00:00Z"
+date: "2026-08-07T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+#publishDate: "2017-01-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -16,12 +16,12 @@ publication_types: ["article"]
 # Preprints typically have no formal venue; omit `publication` until the work is accepted.
 
 peer_reviewed: false
-open_access: true
-license: CC-BY-4.0
+open_access: false
+#license: CC-BY-4.0
 
-funding:
-  - funder: "Wellcome Trust"
-    grant: "WT-219123/Z/19/Z"
+#funding:
+#  - funder: "Wellcome Trust"
+#    grant: "WT-219123/Z/19/Z"
 
 abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
@@ -41,26 +41,26 @@ links:
 - type: preprint
   provider: arxiv
   id: 1512.04133v1
-- type: code
-  url: https://github.com/HugoBlox/kit
-- type: slides
-  url: https://www.slideshare.net/
-- type: dataset
-  url: "#"
-- type: poster
-  url: "#"
-- type: source
-  url: "#"
-- type: video
-  url: https://youtube.com
-- type: custom
-  label: Custom Link
-  url: http://example.org
+#- type: code
+#  url: https://github.com/HugoBlox/kit
+#- type: slides
+#  url: https://www.slideshare.net/
+#- type: dataset
+#  url: "#"
+#- type: poster
+#  url: "#"
+#- type: source
+#  url: "#"
+#- type: video
+#  url: https://youtube.com
+#- type: custom
+#  label: Custom Link
+#  url: http://example.org
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  #caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
   focal_point: ""
   preview_only: false
 
@@ -80,7 +80,7 @@ projects:
 slides: ""
 ---
 
-This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.
+#This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.
 
 > [!NOTE]
 > Create your slides in Markdown - click the *Slides* button to check out the example.
