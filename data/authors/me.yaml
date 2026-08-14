@@ -82,11 +82,11 @@ experience:
 skills:
   - name: Technical Skills
     items:
-      - label: Programming: Python, R, Bash/Linux
+      - label: "Programming: Python, R, Bash/Linux"
         level: 5
-      - label: Bioinformatics Tools: PySAM, Tidyverse, Circlize, ComplexHeatmap, FastQC, BWA-MEM, Samtools, Sequenza, Picard, Varscan, Strelka, Mutect, Delly, SigProfiler, ANNOVAR, IGV
+      - label: "Bioinformatics Tools: PySAM, Tidyverse, Circlize, ComplexHeatmap, FastQC, BWA-MEM, Samtools, Sequenza, Picard, Varscan, Strelka, Mutect, Delly, SigProfiler, ANNOVAR, IGV"
         level: 5
-      - label: Web Frameworks / Tools: Streamlit, Adobe Illustrator, Adobe InDesign
+      - label: "Web Frameworks / Tools: Streamlit, Adobe Illustrator, Adobe InDesign"
         level: 4
   - name: Research & Communication
     items:
