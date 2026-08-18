@@ -102,29 +102,53 @@ experience:
       Gained hands-on experience in in vitro techniques, including DNA cloning, DNA preparation, plasmid transfection, and Western blotting.
       
 skills:
-  - name: Technical Skills
+  - name: Programming & Web
     items:
-      - label: |
-          Programming: 
-          Python, R, Bash/Linux
+      - label: "Python, R, Bash / Linux"
         level: 5
-      - label: |
-          Bioinformatics Tools: 
-          PySAM, Tidyverse, Circlize, ComplexHeatmap, 
-          FastQC, BWA-MEM, Samtools, Sequenza, 
-          Picard, Varscan, Strelka, Mutect, Delly, 
-          SigProfiler, ANNOVAR, IGV
-        level: 5
-      - label: |
-          Web Frameworks / Tools: 
-          Streamlit, Adobe Illustrator, Adobe InDesign
+      - label: "Streamlit, Git"
         level: 4
-  - name: Research & Communication
+
+  - name: Bioinformatics & Genomics
     items:
-      - label: Academic Writing
+      - label: "WGS Analysis & Alignment: BWA-MEM, Samtools, FastQC, Picard, IGV"
         level: 5
-      - label: Conference Presentations
+      - label: "Variant Calling & Annotation: Strelka, Varscan, Mutect, Delly, ANNOVAR"
+        level: 5
+      - label: "R / Python Data Science: PySAM, Tidyverse, ComplexHeatmap, Circlize, SigProfiler"
+        level: 5
+
+  - name: Design & Communication
+    items:
+      - label: "Design: Adobe Illustrator, InDesign"
         level: 4
+      - label: "Academic Writing & Conference Presentations"
+        level: 5
+        
+#skills:
+#  - name: Technical Skills
+#    items:
+#      - label: |
+#          Programming: 
+#          Python, R, Bash/Linux
+#        level: 5
+#      - label: |
+#          Bioinformatics Tools: 
+#          PySAM, Tidyverse, Circlize, ComplexHeatmap, 
+#          FastQC, BWA-MEM, Samtools, Sequenza, 
+#          Picard, Varscan, Strelka, Mutect, Delly, 
+#          SigProfiler, ANNOVAR, IGV
+#        level: 5
+#      - label: |
+#          Web Frameworks / Tools: 
+#          Streamlit, Adobe Illustrator, Adobe InDesign
+#        level: 4
+#  - name: Research & Communication
+#    items:
+#      - label: Academic Writing
+#        level: 5
+#      - label: Conference Presentations
+#        level: 4
 
 languages:
   - name: English
