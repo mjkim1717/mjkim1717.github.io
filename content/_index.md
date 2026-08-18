@@ -66,21 +66,22 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  #- block: collection
-  #  id: talks
-  #  content:
-  #    title: Recent & Upcoming Talks
-  #    filters:
-  #      folders:
-  #        - events
-  #  design:
-  #    view: card
-  #- block: collection
-  #  id: news
-  #  content:
-  #    title: Recent News
-  #    subtitle: ''
-  #    text: ''
+  - block: collection
+    id: talks
+    content:
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - events
+    design:
+      view: card
+    active: false
+  - block: collection
+    id: news
+    content:
+      title: Recent News
+      subtitle: ''
+      text: ''
       # Page type to display. E.g. post, talk, publication...
       page_type: blog
       # Choose how many pages you would like to display (0 = all pages)
@@ -104,6 +105,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+    active: false
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:
