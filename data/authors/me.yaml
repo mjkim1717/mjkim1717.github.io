@@ -125,31 +125,6 @@ skills:
       - label: "Academic Writing & Conference Presentations"
         level: 5
         
-#skills:
-#  - name: Technical Skills
-#    items:
-#      - label: |
-#          Programming: 
-#          Python, R, Bash/Linux
-#        level: 5
-#      - label: |
-#          Bioinformatics Tools: 
-#          PySAM, Tidyverse, Circlize, ComplexHeatmap, 
-#          FastQC, BWA-MEM, Samtools, Sequenza, 
-#          Picard, Varscan, Strelka, Mutect, Delly, 
-#          SigProfiler, ANNOVAR, IGV
-#        level: 5
-#      - label: |
-#          Web Frameworks / Tools: 
-#          Streamlit, Adobe Illustrator, Adobe InDesign
-#        level: 4
-#  - name: Research & Communication
-#    items:
-#      - label: Academic Writing
-#        level: 5
-#      - label: Conference Presentations
-#        level: 4
-
 languages:
   - name: English
     level: 5
@@ -164,3 +139,14 @@ awards:
     date: "2025-02"
     summary: For an oral presentation titled “Distinguishing multiple primary lung cancers from intrapulmonary oligometastasis using whole genome sequencing”.
     icon: hero/trophy
+  - title: Merit-based scholarship (10%)
+    awarder: Seoul National University
+    start: 2023
+    end: 2024
+    summary: For graduate students who have earned a GPA over 4.0 on a 4.3 scale.
+  - title: Sejong Language Honors Scholarship
+    awarder: Sejong University
+    date: "2021"
+    summary: For students who scored 900 or above on the TOEIC.
+
+
