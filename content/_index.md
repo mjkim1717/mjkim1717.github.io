@@ -38,11 +38,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        Cancer Genomics and Bioinformatics Researcher with a track record in translational lung cancer research and a Master’s in Cancer Biology. Adept at analyzing complex genomic cohorts (WGS) to distinguish clonal relatedness, with a dedicated focus on generating evidence to inform clinical practice guidelines. Possesses a deep scientific understanding of oncogenic driver mutations (EGFR, ALK) and experience in linking Electronic Health Records (EHR) with sequencing data to explore clonal relationships in tumors. 
     design:
       columns: '1'
   - block: collection
