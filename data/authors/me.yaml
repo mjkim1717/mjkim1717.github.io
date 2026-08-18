@@ -141,8 +141,7 @@ awards:
     icon: hero/trophy
   - title: Merit-based scholarship (10%)
     awarder: Seoul National University
-    start: 2023
-    end: 2024
+    date: "2023-2024"
     summary: For graduate students who have earned a GPA over 4.0 on a 4.3 scale.
   - title: Sejong Language Honors Scholarship
     awarder: Sejong University
