@@ -30,8 +30,12 @@ sections:
     content:
       title: Languages
       username: me
-  - block: resume-activities
+  - block: accomplishments
     content:
       title: Activities
+      # Points to me.yaml
       username: me
+      # Tell the block to fetch your 'activities' key from me.yaml
+      item_type: activities
+
 ---
