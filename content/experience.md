@@ -30,5 +30,9 @@ sections:
     content:
       title: Languages
       username: me
+  - block: resume-activities
+    content:
+      title: Activities
+      username: me
 
 ---
