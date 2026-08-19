@@ -1,7 +1,7 @@
 ---
 title: "Tracing the origins of bilateral breast angiosarcoma using whole-genome sequencing"
 authors:
-- Minju Kim
+- Minju Kim, et al.
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
