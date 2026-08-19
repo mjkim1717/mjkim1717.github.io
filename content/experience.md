@@ -22,6 +22,9 @@ sections:
     content:
       title: Skills
       username: me
+    design:
+      columns: '1'
+      css_class: '[&_.grid]:grid-cols-1 [&_.grid]:md:grid-cols-3 gap-6'
   - block: resume-awards
     content:
       title: Awards
