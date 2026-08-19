@@ -1,6 +1,9 @@
 {{ $page := .page }}
 {{ $block := .block }}
-{{ $author := index $page.Site.Data.authors ($block.content.username | default "me") }}
+
+{{/* Look up author data directly from site.Data.authors */}}
+{{ $username := $block.content.username | default "me" }}
+{{ $author := index site.Data.authors $username }}
 
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
@@ -8,20 +11,25 @@
     {{ with $block.content.subtitle }}<p>{{ . }}</p>{{ end }}
   </div>
   <div class="col-12 col-lg-8">
-    {{ with $author.activities }}
-      {{ range . }}
-        <div class="card experience course my-3">
-          <div class="card-body">
-            <h4 class="card-title exp-title text-muted my-0">{{ .title }}</h4>
-            <div class="card-subtitle my-0 article-metadata">
-              {{ with .organization }}<span class="text-muted">{{ . }}</span><span class="middot-divider"></span>{{ end }}
-              {{ with .date }}<span>{{ . }}</span>{{ end }}
+    {{ if $author }}
+      {{ with $author.activities }}
+        {{ range . }}
+          <div class="card experience course my-3">
+            <div class="card-body">
+              <h4 class="card-title exp-title text-muted my-0">{{ .title }}</h4>
+              <div class="card-subtitle my-0 article-metadata mt-1">
+                {{ with .organization }}<span class="text-muted font-weight-bold">{{ . }}</span>{{ end }}
+                {{ if and .organization .date }}<span class="middot-divider"></span>{{ end }}
+                {{ with .date }}<span>{{ . }}</span>{{ end }}
+              </div>
+              {{ with .summary }}
+                <div class="card-text mt-2">{{ . | markdownify }}</div>
+              {{ end }}
             </div>
-            {{ with .summary }}
-              <div class="card-text mt-2">{{ . | markdownify }}</div>
-            {{ end }}
           </div>
-        </div>
+        {{ end }}
+      {{ else }}
+        <p class="text-muted">No activities found under 'activities:' in data/authors/{{ $username }}.yaml</p>
       {{ end }}
     {{ end }}
   </div>
