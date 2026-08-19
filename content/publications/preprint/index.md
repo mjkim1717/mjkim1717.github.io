@@ -1,7 +1,7 @@
 ---
 title: "MPLC IPM / Manuscript"
 authors:
-- me
+- Minju Kim, et al.
 date: "2026-08-07T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
