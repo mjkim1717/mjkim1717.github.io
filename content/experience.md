@@ -26,6 +26,10 @@ sections:
     content:
       title: Awards
       username: me
+  - block: resume-activities
+    content:
+      title: Activities
+      username: me
   - block: resume-languages
     content:
       title: Languages
